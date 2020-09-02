@@ -1,0 +1,203 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #F9F9F9;
+}
+header{
+  font-size: 10px;
+  margin: 5px;
+  background-color: white;
+  margin: 0 ;
+
+  
+  
+}
+
+.header{
+ 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10000;
+  
+}
+
+
+ul li.ul_List{
+  margin-right: auto;
+}
+
+
+
+
+.navbar ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 10px 20px 10px 10px;
+
+}
+
+
+nav ul li a{
+  display: block;
+  padding: 5px 20px ;
+  text-decoration: none;
+  color: brown;
+  font-weight: bold;
+  transition: transfrom 0.5s ease-in;
+
+ 
+}
+
+nav ul li a:hover{
+  transform: scale(1.5);
+
+}
+   
+
+/* ↑headerはここまで↑ */
+
+/* ↓ここからはmain↓ */
+.width1{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.main{
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(imgs/100M0621B026_TP_V.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  
+  
+
+}
+
+.main_content{
+  text-align: center;
+
+}
+
+.main_content h1{
+  font-size: 60px;
+  color:rgba(255,255,255,0.8);
+  margin-top: 0px;
+  text-shadow: #000 5px 3px 0
+}
+
+.main_content span{
+  font-weight: bold;
+  text-shadow: yellowgreen 5px 5px 0;
+}
+/* ↓ここからは３カラム↓ */
+
+
+.midashi{
+  text-align: center;
+}
+.midashi h2{
+  font-size: 70px;
+}
+
+.mainColumn{
+
+  padding: 0 0 40px 0;
+  margin: 50px auto;
+  
+  text-align: center;
+}
+
+.column1{
+  margin: 0 20px 0 20px;
+  padding: 0 30px 0 30px 0;
+}
+
+.column2{
+  margin: 0 20px 0 20px;
+  padding: 0 30px 0 30px 0;
+}
+
+.column3{
+  margin: 0 20px 0 20px;
+  padding: 0 30px 0 30px 0;
+}
+
+.fas, .fab{
+  font-size: 70px;
+
+}
+
+@media screen and (min-width: 768px){
+
+  .width1{
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mainColumn{
+    display: flex;
+  }
+
+  .column1{
+    flex: 1;
+    margin: 100px 20px 0 20px;
+  }
+
+  .column2{
+    flex: 1;
+    margin: 100px 20px 0 20px;
+  }
+
+  .column3{
+    flex: 1;
+    margin: 100px 20px 0 20px;
+  }
+
+}
+
+.contetu p {
+  
+  margin-top:30px ;
+  
+
+}
+
+/* fotter */
+
+.footer{
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.rast1{
+ text-align: center;
+}
+
+.rast1 h3{
+  font-size: 5px;
+  margin-top: 20px;
+}
+
+.profile1{
+  display: flex;
+  justify-content: center;
+}
+
+.profile1 p{
+  font-size: 5px;
+}
+
+.rast{
+  display: flex;
+  justify-content: center;
+}
+
+
+  
+
